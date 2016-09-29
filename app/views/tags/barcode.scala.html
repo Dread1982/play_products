@@ -1,0 +1,3 @@
+@* barcode Template File *@
+@(ean: Long)
+<img class="barcode" alt="@ean" src="@routes.BarcodesController.barcode(ean)">
